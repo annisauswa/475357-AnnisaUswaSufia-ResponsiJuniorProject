@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Departemen.cs" />
+    <Compile Include="DepLower.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

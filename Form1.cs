@@ -13,6 +13,7 @@ namespace responsi2
 {
     public partial class Form1 : Form
     {
+        DepLower DepLower = new DepLower("override");
         public Form1()
         {
             InitializeComponent();

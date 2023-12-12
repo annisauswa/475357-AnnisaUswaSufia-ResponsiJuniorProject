@@ -8,7 +8,7 @@ namespace responsi2
 {
     public class Departemen
     {
-        private string nama_dep;
+        protected string nama_dep;
         public string Nama_dep
         {
             get { return nama_dep; }
@@ -17,6 +17,10 @@ namespace responsi2
         public Departemen(string nama_dep)
         {
             this.nama_dep = nama_dep;
+        }
+        public virtual void set_nama(string text)
+        {
+            Nama_dep = this.nama_dep;
         }
     }
 }
